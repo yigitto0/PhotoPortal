@@ -1,0 +1,53 @@
+.box {
+	width: 600px;
+	display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	border-radius: 7px;
+}
+
+.contact-link {
+	text-decoration: none;
+	color: #d86b47;
+}
+
+.contact-link:hover {
+	color: #f3f3f3;
+	text-shadow: 4px 4px 8px black;
+	transition: 0.6s ease;
+}
+
+.heading {
+	padding: 10px;
+	text-align: center;
+}
+.faqs {
+	padding: 0px 20px 20px;
+}
+::-webkit-details-marker {
+	float: right;
+	margin-top: 3px;
+}
+
+details {
+	background-color: #ee91817e;
+	padding: 10px 20px;
+	border-radius: 7px;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	font-size: 18px;
+	
+}
+details summary {
+	outline: none;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.text {
+	margin-top: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}

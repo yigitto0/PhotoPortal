@@ -1,0 +1,92 @@
+.add-photo {
+    display: none;
+    background-color: #eca194d7;
+    position: fixed;
+    border-radius: 5px;
+    margin-top: 15%;
+    top: 25%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 480px;
+    height: 580px;
+    border: 5px solid #5a0404;
+}
+
+#addht {
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    margin: 35px 0px 12px 0px;
+}
+
+#upload-form .title {
+    border: 2px solid rgb(230, 0, 0);
+    text-align: center;
+    padding: 4px;
+    margin: 12px 24px 8px 0px;
+}
+
+#upload-form #imagebtn {
+    margin: 12px 0px 8px 0px;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.image-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px 0px 80px;
+    border: 5px dotted red;
+    width: 300px;
+    height: 200px;
+}
+
+.image-preview .image-preview__image {
+    display: none;
+    max-width: 290px;
+    max-height: 190px;
+}
+
+.addphoto-btn {
+    display: inline-block;
+    margin: 12px 20px 0px 0px;
+}
+
+.add-photo #upload-btn {
+    cursor: pointer;
+    font-size: 20px;
+    width: 170px;
+    height: 33px;
+    background-color: #1a9c15bd;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+.add-photo #upload-btn:hover {
+    color: #ffffffa9;
+    transition: 1.2s ease;
+    width: 183px;
+}
+
+.add-photo #cancel-btn {
+    cursor: pointer;
+    font-size: 20px;
+    width: 75px;
+    height: 33px;
+    border: 2px solid;
+    border-radius: 3px;
+    background-color: rgb(199, 8, 8);
+}
+
+.add-photo #cancel-btn:hover {
+    color: #ffffffa9;
+    transition: 0.5s ease;
+    width: 80px;
+}

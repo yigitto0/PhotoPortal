@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#fpht {
+    font-size: 36px;
+    border-bottom: 3px transparent #D48166;
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+#fp-box {
+   width: 450px;
+   background-color: #f0e0f06e;
+   border-radius: 20px ;
+   position: absolute;
+   border-radius: 20px;
+   margin-top: 25%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: #D48166;
+}
+
+#fptht {
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+#success {
+    color: #689118;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+#error-msg {
+    color: #ca1e1e;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.fp-textbox {
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px 0;
+    width: 75%;
+    margin: 4px 0px 8px 64px;
+    background-color: #ee91817e;
+    border-radius: 15px;
+}
+
+.fp-textbox i {
+    width: 48px;
+    float: left;
+    text-align: center;
+}
+
+.fp-textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 75%;
+    float: left;
+    margin: 0 10px;
+}
+
+.fp-btn {
+    display: block;
+    border: none;
+    border-radius: 8px;
+    color: #b46163;
+    background-color: #ee91817e;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 12px 0px 0px 42%;
+}
+
+.fp-btn:hover {
+    color: #000;
+    text-shadow: 4px 4px 5px gray;
+    font-size: 21px;
+    transition: 0.8s ease;
+}
+
+.extras {
+    display: flex;
+    justify-content: center;
+    color:  #000000;
+    font-size: 20px;
+    padding: 4px 0;
+    margin: 8px 0;
+}
+
+.extra {
+    color: #D48166;
+}
+

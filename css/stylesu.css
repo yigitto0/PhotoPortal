@@ -1,0 +1,94 @@
+#suht {
+    font-size: 36px;
+    text-align: center;
+    margin:16px 10px;
+}
+
+#su-box {
+   width: 450px;
+   height: auto;
+   background-color: #f0e0f06e;
+   border-radius: 20px ;
+   position: absolute;
+   border-radius: 20px;
+   margin-top: 27%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: #D48166;
+}
+
+#welcometxt {
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #000000;
+    text-shadow:2px 2px 5px gray;
+}
+
+#form {
+    padding: 8px 0px 12px 100px; 
+}
+
+#form input {
+    border: 3px solid #b1aaa869;
+    display: block;
+    outline: none;
+    border-radius: 8px;
+    background-color: #ee91817e;
+    font-size: 20px;
+    padding: 2px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+.form-control {
+    margin: 0px 0px 15px 0px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.form-control label {
+    position: absolute;
+    bottom: 30px;
+    right: 360px;
+    font-size: 20px;
+    color: #000;
+}
+
+.form-control small{
+    visibility: hidden;
+    position: absolute; 
+    bottom: 5px;
+    left: 0;
+    font-size: 16px;
+    color: #ff6347;
+}
+
+#form button {
+    border: none;
+    outline: none;
+    display: inline-block;
+    width: 100px;
+    color: #b46163;
+    background-color: #ee91817e;
+    margin-left: 70px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#form button:hover {
+    color: #000;
+    text-shadow: 4px 4px 5px gray;
+    font-size: 21px;
+    transition: 0.8s ease;
+}
+
+.su-extras {
+    display: inline-block;
+    width: 100%;  
+    margin: 0px 0px 16px 120px;
+    font-size: 20px;
+}
+
